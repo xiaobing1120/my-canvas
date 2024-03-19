@@ -9,6 +9,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "html2canvas": "^1.4.1",
     "umi": "^4.1.2"
   },
   "devDependencies": {
