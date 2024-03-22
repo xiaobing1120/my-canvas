@@ -61,9 +61,11 @@ export default function Version1Page() {
     const canvas: any = document.getElementById("canvas")
     const ctx = canvas.getContext("2d");
     const { offsetWidth, offsetHeight } = canvas;
+    const padding = 28
     //
     canvas.width = offsetWidth * window.devicePixelRatio;
     canvas.height = offsetHeight * window.devicePixelRatio;
+
 
 
 
@@ -89,7 +91,8 @@ export default function Version1Page() {
     for (let i= 0; i < 4; i++){
       ctx.strokeStyle = '#026302';
       ctx.lineWidth = 2;
-      ctx.strokeRect(100,100,100,100);
+      ctx.strokeRect(padding, padding,30,30);
+      ctx.strokeRect(padding, padding,30,30);
     }
 
 
